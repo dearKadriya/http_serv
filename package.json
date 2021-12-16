@@ -1,0 +1,30 @@
+{
+  "name": "http_serv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "forever server.js",
+    "watch": "forever -w server.js",
+    "prestart": "npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dearKadriya/http_serv.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dearKadriya/http_serv/issues"
+  },
+  "homepage": "https://github.com/dearKadriya/http_serv#readme",
+  "dependencies": {
+    "forever": "^4.0.1",
+    "koa": "^2.13.4",
+    "koa-body": "^4.2.0"
+  },
+  "engines": {
+    "node": "11.x"
+  }
+}
